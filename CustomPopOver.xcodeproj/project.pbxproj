@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00CE3F6D83B0FC5FAB0E0870 /* Pods_CustomPopOver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC327FE9A9F776CDFD5B616 /* Pods_CustomPopOver.framework */; };
 		05A5FD1522E2C887002D3781 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A5FD1422E2C887002D3781 /* AppDelegate.swift */; };
 		05A5FD1722E2C887002D3781 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A5FD1622E2C887002D3781 /* ViewController.swift */; };
 		05A5FD1A22E2C887002D3781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A5FD1822E2C887002D3781 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		05A5FD1F22E2C88D002D3781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A5FD1D22E2C88D002D3781 /* LaunchScreen.storyboard */; };
 		05A5FD2A22E2C88D002D3781 /* CustomPopOverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A5FD2922E2C88D002D3781 /* CustomPopOverTests.swift */; };
 		05A5FD3522E2C88D002D3781 /* CustomPopOverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A5FD3422E2C88D002D3781 /* CustomPopOverUITests.swift */; };
+		221FDB7A10D7891813E7AEB0 /* Pods_CustomPopOverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD389581A6BC5B8309DCA6F /* Pods_CustomPopOverTests.framework */; };
+		E43D146A1B35EBA023829C0A /* Pods_CustomPopOverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C955CD5C17FB5C711CB51B3 /* Pods_CustomPopOverUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		05A5FD3022E2C88D002D3781 /* CustomPopOverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomPopOverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A5FD3422E2C88D002D3781 /* CustomPopOverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopOverUITests.swift; sourceTree = "<group>"; };
 		05A5FD3622E2C88D002D3781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC327FE9A9F776CDFD5B616 /* Pods_CustomPopOver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomPopOver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC367B96957B84E75538471 /* Pods-CustomPopOverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPopOverUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomPopOverUITests/Pods-CustomPopOverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		63226F255F26AA9DC3BCDF32 /* Pods-CustomPopOver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPopOver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomPopOver/Pods-CustomPopOver.debug.xcconfig"; sourceTree = "<group>"; };
+		6AD389581A6BC5B8309DCA6F /* Pods_CustomPopOverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomPopOverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C955CD5C17FB5C711CB51B3 /* Pods_CustomPopOverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomPopOverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9414D015B7F6F5277C4B895E /* Pods-CustomPopOverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPopOverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomPopOverTests/Pods-CustomPopOverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B66E46C928E931D2DB2F0440 /* Pods-CustomPopOverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPopOverUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomPopOverUITests/Pods-CustomPopOverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C45D3003751B949D2BEB10F7 /* Pods-CustomPopOver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPopOver.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomPopOver/Pods-CustomPopOver.release.xcconfig"; sourceTree = "<group>"; };
+		D0E95051F856EB7C9CF9B81B /* Pods-CustomPopOverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPopOverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomPopOverTests/Pods-CustomPopOverTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00CE3F6D83B0FC5FAB0E0870 /* Pods_CustomPopOver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221FDB7A10D7891813E7AEB0 /* Pods_CustomPopOverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E43D146A1B35EBA023829C0A /* Pods_CustomPopOverUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				05A5FD2822E2C88D002D3781 /* CustomPopOverTests */,
 				05A5FD3322E2C88D002D3781 /* CustomPopOverUITests */,
 				05A5FD1222E2C887002D3781 /* Products */,
+				273B405E6F558C2C555628E6 /* Pods */,
+				946EA04E8763D0761C0FB932 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = CustomPopOverUITests;
 			sourceTree = "<group>";
 		};
+		273B405E6F558C2C555628E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63226F255F26AA9DC3BCDF32 /* Pods-CustomPopOver.debug.xcconfig */,
+				C45D3003751B949D2BEB10F7 /* Pods-CustomPopOver.release.xcconfig */,
+				9414D015B7F6F5277C4B895E /* Pods-CustomPopOverTests.debug.xcconfig */,
+				D0E95051F856EB7C9CF9B81B /* Pods-CustomPopOverTests.release.xcconfig */,
+				1CC367B96957B84E75538471 /* Pods-CustomPopOverUITests.debug.xcconfig */,
+				B66E46C928E931D2DB2F0440 /* Pods-CustomPopOverUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		946EA04E8763D0761C0FB932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CC327FE9A9F776CDFD5B616 /* Pods_CustomPopOver.framework */,
+				6AD389581A6BC5B8309DCA6F /* Pods_CustomPopOverTests.framework */,
+				8C955CD5C17FB5C711CB51B3 /* Pods_CustomPopOverUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05A5FD3922E2C88D002D3781 /* Build configuration list for PBXNativeTarget "CustomPopOver" */;
 			buildPhases = (
+				250C669107888E152DB3D0A6 /* [CP] Check Pods Manifest.lock */,
 				05A5FD0D22E2C887002D3781 /* Sources */,
 				05A5FD0E22E2C887002D3781 /* Frameworks */,
 				05A5FD0F22E2C887002D3781 /* Resources */,
+				8933C679EA57B37D34F84EA9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05A5FD3C22E2C88D002D3781 /* Build configuration list for PBXNativeTarget "CustomPopOverTests" */;
 			buildPhases = (
+				EF3CE144D8A437C42B2998C2 /* [CP] Check Pods Manifest.lock */,
 				05A5FD2122E2C88D002D3781 /* Sources */,
 				05A5FD2222E2C88D002D3781 /* Frameworks */,
 				05A5FD2322E2C88D002D3781 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05A5FD3F22E2C88D002D3781 /* Build configuration list for PBXNativeTarget "CustomPopOverUITests" */;
 			buildPhases = (
+				98318F93087D43FB5B750FC2 /* [CP] Check Pods Manifest.lock */,
 				05A5FD2C22E2C88D002D3781 /* Sources */,
 				05A5FD2D22E2C88D002D3781 /* Frameworks */,
 				05A5FD2E22E2C88D002D3781 /* Resources */,
@@ -250,6 +294,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		250C669107888E152DB3D0A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomPopOver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8933C679EA57B37D34F84EA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CustomPopOver/Pods-CustomPopOver-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Popover/Popover.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Popover.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomPopOver/Pods-CustomPopOver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98318F93087D43FB5B750FC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomPopOverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF3CE144D8A437C42B2998C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomPopOverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		05A5FD0D22E2C887002D3781 /* Sources */ = {
@@ -430,14 +549,12 @@
 		};
 		05A5FD3A22E2C88D002D3781 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63226F255F26AA9DC3BCDF32 /* Pods-CustomPopOver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CustomPopOver/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.badrinath.CustomPopOver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -447,14 +564,12 @@
 		};
 		05A5FD3B22E2C88D002D3781 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C45D3003751B949D2BEB10F7 /* Pods-CustomPopOver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CustomPopOver/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.badrinath.CustomPopOver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -464,16 +579,13 @@
 		};
 		05A5FD3D22E2C88D002D3781 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9414D015B7F6F5277C4B895E /* Pods-CustomPopOverTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CustomPopOverTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.badrinath.CustomPopOverTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -484,16 +596,13 @@
 		};
 		05A5FD3E22E2C88D002D3781 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E95051F856EB7C9CF9B81B /* Pods-CustomPopOverTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CustomPopOverTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.badrinath.CustomPopOverTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -504,15 +613,12 @@
 		};
 		05A5FD4022E2C88D002D3781 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC367B96957B84E75538471 /* Pods-CustomPopOverUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CustomPopOverUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.badrinath.CustomPopOverUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -523,15 +629,12 @@
 		};
 		05A5FD4122E2C88D002D3781 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B66E46C928E931D2DB2F0440 /* Pods-CustomPopOverUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CustomPopOverUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.badrinath.CustomPopOverUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

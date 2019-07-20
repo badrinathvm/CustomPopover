@@ -1,0 +1,16 @@
+PODS:
+  - Popover (1.2.2)
+
+DEPENDENCIES:
+  - Popover (~> 1.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Popover
+
+SPEC CHECKSUMS:
+  Popover: 21e357f86d45c8d9e29a41a4adbca3664d6e511f
+
+PODFILE CHECKSUM: b198477bc2b796613f5d21ba9a40978c3cbac94b
+
+COCOAPODS: 1.5.0
